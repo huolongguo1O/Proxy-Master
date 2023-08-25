@@ -224,9 +224,12 @@ class Downloadproxies():
             self.proxy_dict[type] = list(set(self.proxy_dict[type]))
             self.out_file = '/home/ubuntu/data/{}.txt'.format(type)
             f = open(self.out_file,'w')
-            for i in self.proxy_dict[type]:
+            cnt1 = len(self.proxy_dict[type])
+            l = list(set(self.proxy_dict[type]))
+            print(type + " repeat rate: " + (1-len(l)/cnt1) + "%")
+            for i in l:
                 if '#' in i or i == '\n':
-                    self.proxy_dict[type].remove(i)
+                    l.remove(i)
                 else:
                     f.write(i + '\n')
             print("> Have already saved {} proxies list as ".format(len(self.proxy_dict[type])) + self.out_file)
