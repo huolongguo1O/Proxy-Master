@@ -27,12 +27,17 @@ class Downloadproxies():
         'https://github.com/hanwayTech/free-proxy-list/blob/main/socks4.txt',
         'https://raw.githubusercontent.com/Zaeem20/FREE_PROXY_LIST/master/socks4.txt',
         'https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/socks4.txt',
-        'https://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt'
+        'https://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt',
         'https://proxyspace.pro/socks4.txt',
-        'https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt'
-        'https://raw.githubusercontent.com/ObcbO/getproxy/master/socks4.txt'
-        'https://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt'
-        'https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt'
+        'https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS4.txt',
+        'https://raw.githubusercontent.com/ObcbO/getproxy/master/socks4.txt',
+        'https://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt',
+        'https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks4.txt',
+        'https://raw.githubusercontent.com/prxchk/proxy-list/main/socks4.txt',
+        'https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt',
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt',
+        'https://raw.githubusercontent.com/fahimscirex/proxybd/master/proxylist/socks4.txt',
+        'https://github.com/ErcinDedeoglu/proxies/blob/main/proxies/socks4.txt'
         ],
     'socks5': [
         "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5&timeout=10000&country=all&simplified=true",
@@ -63,6 +68,11 @@ class Downloadproxies():
         'https://proxyspace.pro/socks5.txt',
         'https://raw.githubusercontent.com/B4RC0DE-TM/proxy-list/main/SOCKS5.txt',
         'https://raw.githubusercontent.com/zevtyardt/proxy-list/main/socks5.txt',
+        'https://raw.githubusercontent.com/prxchk/proxy-list/main/socks5.txt',
+        'https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt',
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt',
+        'https://raw.githubusercontent.com/fahimscirex/proxybd/master/proxylist/socks5.txt',
+        'https://github.com/ErcinDedeoglu/proxies/blob/main/proxies/socks5.txt'
         ],
     'http': [
         "https://api.proxyscrape.com/?request=displayproxies&proxytype=http",
@@ -115,7 +125,12 @@ class Downloadproxies():
         'https://sheesh.rip/http.txt',
         'https://proxyspace.pro/http.txt',
         'https://proxyspace.pro/https.txt'
-        'https://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt'
+        'https://raw.githubusercontent.com/HyperBeats/proxy-list/main/http.txt',
+        'https://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt',
+        'https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/http.txt',
+        'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt',
+        'https://raw.githubusercontent.com/fahimscirex/proxybd/master/proxylist/http.txt',
+        'https://github.com/ErcinDedeoglu/proxies/blob/main/proxies/http.txt'
 
     
     ]}
